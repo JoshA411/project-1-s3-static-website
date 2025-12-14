@@ -3,6 +3,12 @@
 This project demonstrates hosting a static website on Amazon S3 and distributing it globally using Amazon CloudFront.  
 It was built as part of my 6-month cloud engineering roadmap.
 
+## Live Demo
+
+The website is live and served via Amazon CloudFront:
+
+👉 https://dwaxx9olh718h.cloudfront.net
+
 ## Architecture
 
 Browser  
@@ -30,7 +36,7 @@ Browser
 7. Set `index.html` as the default root object
 8. Verified access via the CloudFront HTTPS URL
 
-## Gotchas & Lessons Learned
+## Lessons Learned
 
 - CloudFront’s **Quick Create UI** does not expose the **Default root object** setting during creation  
   → It must be set **after** the distribution is created under the **General** tab
@@ -48,6 +54,7 @@ Browser
 
 - Successfully deployed a static website on AWS
 - Delivered globally over HTTPS using CloudFront
+- Live URL accessible via CloudFront
 - Gained hands-on experience with real AWS configuration issues and troubleshooting
 
 ## Future Improvements
